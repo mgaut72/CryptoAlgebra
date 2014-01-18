@@ -7,10 +7,8 @@ tags: [Getting Started]
 Just as so you know, the material being covered in this blog will be based on
 what I learn in class, partly from these books:
 
-* [An Introduction to Cryptography with Coding Theory, by W. Trappe and L. Washington]
-(http://www.amazon.com/Introduction-Cryptography-Coding-Theory-Edition/dp/0131862391)
-* [A First Course in Abstract Algebra, by J. Fraleigh]
-(http://www.amazon.com/First-Course-Abstract-Algebra-Edition/dp/0201763907)
+* [An Introduction to Cryptography with Coding Theory, by W. Trappe and L. Washington](http://www.amazon.com/Introduction-Cryptography-Coding-Theory-Edition/dp/0131862391)
+* [A First Course in Abstract Algebra, by J. Fraleigh](http://www.amazon.com/First-Course-Abstract-Algebra-Edition/dp/0201763907)
 
 The first section of this blog, corresponding to the textbook,
 is going to be about what are referred to as "Classical Cryptosystems".
