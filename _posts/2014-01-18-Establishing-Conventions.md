@@ -21,13 +21,13 @@ $$
 
 To follow this convention I will use the following functions:
 
-```
+{% highlight haskell %}
 charToAlphaIdx :: Char -> Int
 charToAlphaIdx = subtract 65 . fromEnum . toUpper
 
 alphaIdxToChar :: Int -> Char
 alphaIdxToChar = toEnum . (+ 65)
-```
+{% endhighlight %}
 
 
 ### Plaintext vs. Ciphertext
