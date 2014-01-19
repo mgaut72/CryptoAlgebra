@@ -20,7 +20,6 @@ $$
 $$
 
 To follow this convention I will use the following functions:
-
 ```haskell
 charToAlphaIdx :: Char -> Int
 charToAlphaIdx = subtract 65 . fromEnum . toUpper
