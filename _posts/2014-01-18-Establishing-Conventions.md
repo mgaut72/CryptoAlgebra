@@ -13,21 +13,21 @@ We will establish the following mapping from characters to integers:
 
 $$
 \begin{array}{c c c c}
- a & b & c & d & \cdots & z \\
- \downarrow & \downarrow & \downarrow & \downarrow & \cdots & \downarrow \\
- 0 & 1 & 2 & 3 & \cdots & 25 \\
+ a & b & c & d & \cdots & z \\\\
+ \downarrow & \downarrow & \downarrow & \downarrow & \cdots & \downarrow \\\\
+ 0 & 1 & 2 & 3 & \cdots & 25 \\\\
  \end{array}
 $$
 
 To follow this convention I will use the following functions:
 
-{% highlight haskell %}
+```haskell
 charToAlphaIdx :: Char -> Int
 charToAlphaIdx = subtract 65 . fromEnum . toUpper
 
 alphaIdxToChar :: Int -> Char
 alphaIdxToChar = toEnum . (+ 65)
-{% endhighlight %}
+```
 
 
 ### Plaintext vs. Ciphertext
