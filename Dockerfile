@@ -1,6 +1,8 @@
 FROM paintedfox/ruby
 
 RUN gem install github-pages
+RUN apt-get install -y python-pygments
+
 
 VOLUME  ["/data"]
 WORKDIR /data
