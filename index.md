@@ -17,6 +17,8 @@ Haskell play very nicely with algebra; and more importantly, why not?
 
 [Find out more about me here]({{BASE_PATH}}/about.html)
 
+<h2 class="noline"><a href="{{BASE_PATH}}/posts.html">All Posts</a></h2>
+
 ## Recent Posts
 
 <ul class="posts">
@@ -25,5 +27,4 @@ Haskell play very nicely with algebra; and more importantly, why not?
   {% endfor %}
 </ul>
 
-## [All Posts]({{BASE_PATH}}/posts.html)
 
