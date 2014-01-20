@@ -1,5 +1,5 @@
 module CryptoTools where
-import Data.Char
+import Data.Char (isAlpha, toUpper)
 
 -- converts characters
 -- A B .. Z
