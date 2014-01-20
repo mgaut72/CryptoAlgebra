@@ -38,19 +38,19 @@ pre code {
     color: #586E75
 } /* Comment */
 .highlight .err {
-    color: #93A1A1
+    color: #596666
 } /* Error */
 .highlight .g {
-    color: #93A1A1
+    color: #596666
 } /* Generic */
 .highlight .k {
     color: #859900
 } /* Keyword */
 .highlight .l {
-    color: #93A1A1
+    color: #596666
 } /* Literal */
 .highlight .n {
-    color: #93A1A1
+    color: #596666
 } /* Name */
 .highlight .o {
     color: #859900
@@ -59,7 +59,7 @@ pre code {
     color: #CB4B16
 } /* Other */
 .highlight .p {
-    color: #93A1A1
+    color: #596666
 } /* Punctuation */
 .highlight .cm {
     color: #586E75
@@ -77,7 +77,7 @@ pre code {
     color: #2AA198
 } /* Generic.Deleted */
 .highlight .ge {
-    color: #93A1A1;
+    color: #596666;
     font-style: italic
 } /* Generic.Emph */
 .highlight .gr {
@@ -90,20 +90,20 @@ pre code {
     color: #859900
 } /* Generic.Inserted */
 .highlight .go {
-    color: #93A1A1
+    color: #596666
 } /* Generic.Output */
 .highlight .gp {
-    color: #93A1A1
+    color: #596666
 } /* Generic.Prompt */
 .highlight .gs {
-    color: #93A1A1;
+    color: #596666;
     font-weight: bold
 } /* Generic.Strong */
 .highlight .gu {
     color: #CB4B16
 } /* Generic.Subheading */
 .highlight .gt {
-    color: #93A1A1
+    color: #596666
 } /* Generic.Traceback */
 .highlight .kc {
     color: #CB4B16
@@ -124,7 +124,7 @@ pre code {
     color: #DC322F
 } /* Keyword.Type */
 .highlight .ld {
-    color: #93A1A1
+    color: #596666
 } /* Literal.Date */
 .highlight .m {
     color: #2AA198
@@ -133,7 +133,7 @@ pre code {
     color: #2AA198
 } /* Literal.String */
 .highlight .na {
-    color: #93A1A1
+    color: #596666
 } /* Name.Attribute */
 .highlight .nb {
     color: #B58900
@@ -157,16 +157,16 @@ pre code {
     color: #268BD2
 } /* Name.Function */
 .highlight .nl {
-    color: #93A1A1
+    color: #596666
 } /* Name.Label */
 .highlight .nn {
-    color: #93A1A1
+    color: #596666
 } /* Name.Namespace */
 .highlight .nx {
     color: #555
 } /* Name.Other */
 .highlight .py {
-    color: #93A1A1
+    color: #596666
 } /* Name.Property */
 .highlight .nt {
     color: #268BD2
@@ -178,7 +178,7 @@ pre code {
     color: #859900
 } /* Operator.Word */
 .highlight .w {
-    color: #93A1A1
+    color: #596666
 } /* Text.Whitespace */
 .highlight .mf {
     color: #2AA198
@@ -199,7 +199,7 @@ pre code {
     color: #2AA198
 } /* Literal.String.Char */
 .highlight .sd {
-    color: #93A1A1
+    color: #596666
 } /* Literal.String.Doc */
 .highlight .s2 {
     color: #2AA198
@@ -208,7 +208,7 @@ pre code {
     color: #CB4B16
 } /* Literal.String.Escape */
 .highlight .sh {
-    color: #93A1A1
+    color: #596666
 } /* Literal.String.Heredoc */
 .highlight .si {
     color: #2AA198
