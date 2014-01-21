@@ -1,11 +1,11 @@
 import CryptoTools
 
 affine_encrypt :: String -> Int -> Int -> String
-affine_encrypt cs a b = map (alphaIdxToChar. (affine a b) . charToAlphaIdx) (clean cs)
+affine_encrypt cs a b = map (idxToChar. (affine a b) . charToIdx) (clean cs)
       where affine a b x = (a * x + b) `mod` 26
 
 affine_decrypt :: String -> Int -> Int -> String
-affine_decrypt cs a b = map (alphaIdxToChar . (unaffine a b) . charToAlphaIdx) (clean cs)
+affine_decrypt cs a b = map (idxToChar . (unaffine a b) . charToIdx) (clean cs)
       where unaffine a b x = inverse 26 a * (x - b) `mod` 26
 
 -- calculate multiplicative inverse in arbitary Z/qZ

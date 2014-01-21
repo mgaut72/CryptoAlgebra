@@ -4,11 +4,11 @@ import Data.Char (isAlpha, toUpper)
 -- converts characters
 -- A B .. Z
 -- 0 1 .. 25
-charToAlphaIdx :: Char -> Int
-charToAlphaIdx = subtract 65 . fromEnum . toUpper
+charToIdx :: Char -> Int
+charToIdx = subtract 65 . fromEnum . toUpper
 
-alphaIdxToChar :: Int -> Char
-alphaIdxToChar = toEnum . (+65)
+idxToChar :: Int -> Char
+idxToChar = toEnum . (+65)
 
 -- convention : plaintext stripped to to alpha chars before encryption
 clean :: String -> String
