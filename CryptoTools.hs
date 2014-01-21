@@ -17,10 +17,10 @@ clean = filter isAlpha
 
 -- classical cryptosystems often rely on shifting by some key
 shift :: Int -> Int -> Int
-shift k x = mod (x + k) 26
+shift k x = (x + k) `mod` 26
 
 unshift :: Int -> Int -> Int
-unshift k x = mod (x - k) 26
+unshift k x = (x - k) `mod`  26
 
 
 -- frequencies of each english letter in common text
