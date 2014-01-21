@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction
-tags: [Getting Started]
+category: Getting-Started
 ---
 
 Just as so you know, the material being covered in this blog will be based on
