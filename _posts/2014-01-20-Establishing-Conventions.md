@@ -26,11 +26,11 @@ To follow this convention I will use the following functions:
 
 import Data.Char (toUpper)
 
-charToAlphaIdx :: Char -> Int
-charToAlphaIdx = subtract 65 . fromEnum . toUpper
+charToIdx:: Char -> Int
+charToIdx = subtract 65 . fromEnum . toUpper
 
-alphaIdxToChar :: Int -> Char
-alphaIdxToChar = toEnum . (+ 65)
+idxToChar :: Int -> Char
+idxToChar = toEnum . (+ 65)
 {% endhighlight %}
 The functions `toEnum` and `fromEnum` will convert between characters and ascii values.
 I chose to convert to uppercase quite arbitrarily, and we could have just
