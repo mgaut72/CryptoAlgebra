@@ -4,7 +4,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 #markdown: kramdown
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "jekyll.sh", "Dockerfile"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "jekyll.sh", "Dockerfile", "publish.sh"]
 pygments: true
 
 # Themes are encouraged to use these universal variables 
