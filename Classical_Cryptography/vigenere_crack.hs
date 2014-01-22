@@ -16,8 +16,6 @@ vigenere_crack cs = vigenere_decrypt key cs
     where key = determineKey w (keyLength cs 10)
           w = letterFreq cs
 
-letterFreq :: String -> [Double]
-letterFreq s = [ (/ fromIntegral (length s)) . fromIntegral. length . filter (== c) $ (map toUpper s) | c <- ['A' .. 'Z']]
 
 determineKey :: [Double] -> Int -> [Int]
 determineKey w 0 = []

@@ -29,3 +29,9 @@ englishFrequencies = [ 0.082, 0.015, 0.028, 0.043, 0.127, 0.022, 0.020, 0.061
                      , 0.001, 0.060, 0.063, 0.091, 0.028, 0.010, 0.023, 0.001
                      , 0.020, 0.001 ]
 
+-- get the frequencies of letters in a given string
+letterFreq :: String -> [Double]
+letterFreq s = [ normalize . countC c $ (map toUpper s) | c <- ['A' .. 'Z']]
+    where countC c  = length . filter (== c) 
+          normalize = (/ fromIntegral (length s)) . fromIntegral
+
