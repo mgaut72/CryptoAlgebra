@@ -26,9 +26,9 @@ ex_txt = clean "VVHQWVVRHMUSGJGTHKIHTSSEJGHLSFCBGVWCRLRYQTFSVGAHW"
       ++ "APUUISFPBTGNWWMUCZRVTWGLRWUGUMNCZVILE"
 
 vigenere_crack :: String -> String
-vigenere_crack ctext = vigenere_decrypt ctext key
-    where key = determineKey w (keyLength ctext 10)
-          w = letterFreq ctext
+vigenere_crack cs = vigenere_decrypt key cs
+    where key = determineKey w (keyLength cs 10)
+          w = letterFreq cs
 
 letterFreq :: String -> [Double]
 letterFreq s = [ (/ fromIntegral (length s)) . fromIntegral. length . filter (== c) $ (map toUpper s) | c <- ['A' .. 'Z']]
