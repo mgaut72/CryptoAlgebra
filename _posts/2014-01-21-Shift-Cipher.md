@@ -54,8 +54,7 @@ shift k x = (x + k) `mod` 26
 
 Now we have a simple function that shifts individual characters.
 Also recall that we have `charToIdx` and `idxToChar` from
-[the Establishin Conventions post]({% post_url
-2014-01-20-Establishing-Conventions %}).
+[the Establishin Conventions post]({% post_url 2014-01-20-Establishing-Conventions %}).
 
 With these tools we can create our final encryption function:
 {% highlight haskell %}
