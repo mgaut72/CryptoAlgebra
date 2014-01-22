@@ -103,8 +103,8 @@ JB :
   analytics :
     provider : google 
     google : 
-    tracking_id : 'UA-47360741-1'
-    site_name: 'mgaut72.github.io'
+      tracking_id : 'UA-47360741-1'
+      site_name: 'mgaut72.github.io'
     getclicky :
       site_id : 
     mixpanel :
