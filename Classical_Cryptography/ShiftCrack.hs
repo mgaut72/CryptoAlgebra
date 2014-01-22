@@ -1,8 +1,6 @@
 module ShiftCrack where
 import CryptoTools
 import Shift
-import Data.List
-import Data.Ord
 
 
 encrypted = shift_encrypt 10 "I am going to type up a really long string so\
