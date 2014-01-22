@@ -7,6 +7,8 @@ tags: [encryption, decryption]
 
 Time for our first cipher, the Shift Cipher!
 
+
+
 ## The basics
 
 The idea behind the shift cipher is that we adjust our previous mapping:
@@ -132,3 +134,24 @@ I hope this first cipher wasn't too slow.  We are, after all, still on
 cryptosystems that are hundreds or thousands of years old.  The pace will pick
 up, and this blog will increase in computational and mathematical difficulty,
 but hopefully remains (or becomes at some point) understandable.
+
+## The Code
+Get the full code on my
+[github](https://github.com/mgaut72/CryptoAlgebra/blob/master/Classical_Cryptography/Shift.hs)
+
+If you clone the repository, the command to use to load this file would be:
+```
+$ pwd
+/foo/bar/CryptoAlgebra/Classical_Cryptography
+$ ghci -i.. Shift.hs
+GHCi, version 7.6.3: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+[1 of 2] Compiling CryptoTools      ( ../CryptoTools.hs, interpreted )
+[2 of 2] Compiling Shift            ( Shift.hs, interpreted )
+Ok, modules loaded: Shift, CryptoTools.
+*Shift>
+```
+
+
