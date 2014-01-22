@@ -3,12 +3,12 @@ import Data.Ord
 import Data.Char
 import Data.List
 
-vigenere_encrypt :: String -> [Int] -> String
-vigenere_encrypt ptext ks = zipWith shiftLetter (clean ptext) (cycle ks)
+vigenere_encrypt :: [Int] -> String -> String
+vigenere_encrypt ks cs = zipWith shiftLetter (clean cs) (cycle ks)
   where shiftLetter c x = idxToChar . shift x . charToIdx $ c
 
-vigenere_decrypt :: String -> [Int] -> String
-vigenere_decrypt ctext ks = vigenere_encrypt ctext (map negate ks)
+vigenere_decrypt :: [Int] -> String -> String
+vigenere_decrypt ks cs= vigenere_encrypt (map negate ks) cs
 
 
 
