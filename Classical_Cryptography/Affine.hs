@@ -1,3 +1,4 @@
+module Affine where
 import CryptoTools
 
 affine_encrypt :: Int -> Int -> String -> String

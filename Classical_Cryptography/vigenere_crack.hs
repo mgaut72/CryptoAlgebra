@@ -1,21 +1,7 @@
+import Vigenere
 import CryptoTools
-import Data.Ord
-import Data.Char
-import Data.List
-
-vigenere_encrypt :: [Int] -> String -> String
-vigenere_encrypt ks cs = zipWith shiftLetter (clean cs) (cycle ks)
-  where shiftLetter c x = idxToChar . shift x . charToIdx $ c
-
-vigenere_decrypt :: [Int] -> String -> String
-vigenere_decrypt ks cs= vigenere_encrypt (map negate ks) cs
-
-
-
-
-
-
-
+import Data.Char (toUpper)
+import Data.List (sortBy)
 
 ex_txt = clean "VVHQWVVRHMUSGJGTHKIHTSSEJGHLSFCBGVWCRLRYQTFSVGAHW"
       ++ "KCUHWAUGLQHNSLRLJSHBLTSPISPRDXLJSVEEGHLQWKASSKUWE"

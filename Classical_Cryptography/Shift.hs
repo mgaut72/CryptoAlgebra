@@ -1,3 +1,4 @@
+module Shift where
 import CryptoTools
 
 shift_encrypt :: Int -> String -> String
