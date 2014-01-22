@@ -12,4 +12,4 @@ affine_decrypt a b cs = map (idxToChar . (unaffine a b) . charToIdx) (clean cs)
 -- calculate multiplicative inverse in arbitary Z/qZ
 inverse q 1 = 1
 inverse q p = (n * q + 1) `div` p
-      where n = p - inv p (q `mod` p)
+      where n = p - inverse p (q `mod` p)
