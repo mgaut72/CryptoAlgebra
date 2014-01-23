@@ -9,3 +9,4 @@ cabal-dev
 _site
 _drafts
 cid.txt
+*.swo
