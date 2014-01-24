@@ -35,3 +35,7 @@ letterFreq s = [ normalize . countC c $ (map toUpper s) | c <- ['A' .. 'Z']]
     where countC c  = length . filter (== c) 
           normalize = (/ fromIntegral (length s)) . fromIntegral
 
+-- Euler phi function, nieve
+phi' :: Int -> Int
+phi' x = length [ a | a <- [1..(x-1)], gcd a x == 1 ]
+
