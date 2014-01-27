@@ -25,6 +25,11 @@ shift k x = (x + k) `mod` 26
 unshift :: Int -> Int -> Int
 unshift k x = (x - k) `mod`  26
 
+-- calculate multiplicative inverse in arbitary Z/qZ
+inverse q 1 = 1
+inverse q p = (n * q + 1) `div` p
+      where n = p - inverse p (q `mod` p)
+
 
 -- frequencies of each english letter in common text
 englishFrequencies = [ 0.082, 0.015, 0.028, 0.043, 0.127, 0.022, 0.020, 0.061
