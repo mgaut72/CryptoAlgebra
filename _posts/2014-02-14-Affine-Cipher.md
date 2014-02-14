@@ -150,7 +150,7 @@ ghci> inv26 2
 {% endhighlight %}
 
 It looks like this inverse function works just fine, based on these few checks.
-The `empty list` exception is to be expected, since $gcd(2,26) != 1$ we would
+The `empty list` exception is to be expected, since $gcd(2,26) \neq 1$ we would
 expect there to not be a multiplicaive inverse of 2.
 
 ### Extended Euclidean Algorithm
